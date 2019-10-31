@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8"/>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Halant&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    
+<style>
+    /* spilts the site into two colums */
+    /* nav colum */
+    .col1{
+        box-sizing: border-box;
+            border: 1px solid rgb(240, 188, 170);
+            width: 20%;
+            float: left;
+        background-color: white;
+        box-shadow: none;
+        list-style: none;
+        
+        }
+    
+    /* content colum */
+    .col2{
+        box-sizing:border-box;
+            border: 1px solid rgb(240, 188, 170);
+            max-width: 80%;
+            float: left;
+            padding-left: 10%;
+            padding-right: 5%;
+            background-color: rgb(240, 188, 170);
+        }
+    
+   
+    .mainBox {
+       background-color: rgb(240, 188, 170);
+        margin-top: 4.5em;
+        overflow: hidden;
+    
+    }
+    
+    /* controls the size aswell */
+    .img-responsive{
+        max-width: 100%;
+        display: block;
+        margin: auto;
+    
+    }
+    
+
+    
+    /* controls the size of the image */
+    .image-container{
+        max-width: 400px;
+        margin: auto;
+    }
+   
+    /* styling of the header */
+    header {
+        font-family: 'DM Serif Display', serif;
+        color: rgb(0,65,32);
+        font-size: 5.5em;
+        position: fixed;
+        top:0;
+        width: 100%;
+        background-color: rgb(240, 188, 170);
+        margin-left: 20px;
+        text-shadow: 4px 4px rgb(255, 255, 255);
+        
+    
+    }
+    
+    /* styling of footer text */
+    h2{
+        font-size: 1.25em;
+        font-family: 'Roboto Mono', monospace;
+        color: rgb(156, 109, 93);
+        align-content: center;
+        margin: auto;
+        padding: inherit;
+        text-decoration: none;
+        list-style: none;
+        outline: none;
+        text-underline-position: none;
+        
+    }
+    
+    
+    /* styling for the place names */
+    h3 {
+        font-family: 'Halant', serif;
+        color: rgb(0,65,32);
+        font-size: 2em;
+        text-align: left;
+    }
+   
+    /* styling introducion phrase */
+    h4 {
+        color: rgb(156, 109, 93);
+        font-size: 2em;
+        /*text-shadow: 2px 2px rgb(255, 255, 255);*/
+        font-family: 'Roboto Mono', monospace;
+        text-align: center
+        
+    }
+    
+    /* the div tag correspondance so that the spacing is correct under the nav bar which is sticky and protudes */
+    h5 {
+        font-size: 2em;
+        color: rgb(240, 188, 170);
+    }
+    
+/* styling for paragraphs*/
+    p {
+        font-size: 1.25em;
+        font-family: 'Roboto Mono', monospace;
+        color: rgb(156, 109, 93);
+        
+    }
+    
+    
+/* making the hr bar invisiable */
+    hr {
+    clear: both;
+    visibility: hidden;
+}
+    
+
+    /* NAV BAR */
+    
+    .nav{
+        top: 7em;
+        list-style: none;
+        padding: 30px;  
+        margin: 0;
+        /* makes it sticky */
+        position: fixed;
+        overflow: hidden;
+        line-height: 40px;
+        
+    }
+    
+    
+
+    
+    .nav li a{
+            /*---font styling---*/
+        display: block;
+        padding: 0;
+        font-size: 1.75em;
+        line-height: 50px;
+        color: rgb(0,65,32);
+        overflow: hidden;
+        list-style: none;
+        text-decoration: none;
+        font-family: 'DM Serif Display', serif;
+        text-shadow: 2px 2px rgb(255, 255, 255);
+        }
+    
+    /* for when hivering over nav bar */
+    .nav li a:hover{
+        color: rgb(156, 109, 93);
+        text-shadow: none;
+    }
+    
+     .container {
+            background-color: rgb(204,229, 255);
+            text-align: center;
+            font-size: 1.25em;
+             position: relative;
+         width: 50%;       
+    }
+    
+    /* background colour */
+    body {
+        background-color:  rgb(240, 188, 170);
+    }
+    
+    /* adds drop shaddow */
+    img {
+        box-shadow: 20px 20px white;
+    }
+    
+    
+    
+    
+    </style>
+
+
+
+</head>
+
+<body>
+
+<!-- title -->
+<header> My Best Brunches </header> 
+
+<!--emcompasses all of the content except the header and footer -->
+<div class = "mainBox">
+   
+    <!-- nav bar column -->
+     <div class="col1">
+  
+    <ul class = "nav">
+    <!--tags for when place is clicked it links to the section -->
+    
+    <li> <a href = "#Mapua"> Muesli at Mapua</a> </li>
+    <li> <a href = "#Napier"> Açai at Napier </a></li>
+    <li> <a href = "#Croissant"> Croissant at Miramar </a> </li>
+    <li> <a href = "#MtM"> Açai at the Mount </a> </li>
+    <li> <a href = "#Ohope"> Muesli at Ohope </a> </li>
+    <li> <a href = "#MM"> Pancakes at the Mount </a> </li>
+    </ul> 
+
+    </div>
+
+<!-- content coulmn -->
+<div class="col2">
+
+<!-- breaks up the sections -->
+<br>
+
+<!-- Welcoming title -->
+<h4 id="Mapua"> Welcome to my website where I review yummy brunches I have had! </h4>
+
+
+<h3 id="Mapua"> Mapua's best Muesli</h3>
+    <!-- controls sizing -->
+    <div class="image-container">
+<img class ="img-responsive" src="images/Mapua.jpg" alt="A vibrant vegan muesli">
+    </div>
+<br> 
+<br> 
+<!-- content/actual review -->
+<p> This muesli is from Alberta's. It is called the Quinoa and Buckwheat granola and is served with coconut yoghurt, seasonal fruits and a mylk of choice. It costs $16.20. Personally I'm not a big fan of coconut yoghurt and muesli but the fruit and presentation was great! My family visit in the middle of winter but the sun was still shining, I was still chilly though. There are lovely views of the wharf and Rabbit Island. This is a popular cafe for people to bring their friendly dogs.  </p>  
+
+ <!-- the div tag correspondance so that the heading is visible from under the nav bar which is sticky and protudes -->   
+<h5 id="Napier"> A freezing Açai in Napier </h5>
+<br>
+    
+<!-- actual header -->
+<h3 id="Napier"> A freezing Açai in Napier </h3>
+<div class="image-container">
+<img class ="img-responsive" src="images/Hapi.jpg" alt="A a stunning acai bowl with lots of different toppings">
+    </div>
+    <br> 
+    <br> 
+<p> This delicious açai bowl is from Hapī Clean Kai Co-op in Hasting St in Napier. It costs $14 which in my opinion, is a good price for an organic smoothie bowl. I like the fact that all their packaging is compostable and that they actually do compost it, but they did not accept our container for my smoothie bowl. The seating is quite cramped as it only one high bench facing the wall so it's not good for large groups. The decor was nice but it does not get the morining sun so it was quite cold. </p>  
+    
+
+<h5 id="Croissant"> My first Vegan croissant</h5>
+<br>
+<h3 id="Croissant"> My first Vegan croissant</h3>
+<div class="image-container">
+<img class ="img-responsive" src="images/Mirimar.jpg" alt="A chocolate croissant on a woodboard">
+</div>
+    <br> 
+    <br> 
+<p> This incredible croissant is from Nicoletta's in Miramar, Wellington. This is the first croissant I have had since going vegan and I even went to a French speaking country. The croissant cost $6 it is rich but not very filling. Personally the atmosphere of the cafe was  ice but a bit chilly and not many people were there. But overall a great selection of local unique vegan eats. </p>  
+    
+    
+<h5 id="MtM"> Another açai - but by the beach! </h5>
+<br>
+<h3 id="MtM"> Another açai - but by the beach! </h3>
+<div class="image-container">
+<img class ="img-responsive" src="images/Mount.jpg" alt="A a stunning acai bowl with lots of different toppings">
+</div>
+<br> 
+<br> 
+<p> I'm very picky about acai's, I like them a certain way and this was not one of them. I was already annoyed as we were on the main strip of cafe's at Mt Maunganui Beach and it was a pretty cold day. We had gone into multiple cafes and nothing served vegan options but my family was set on this one place so we asked, seeing as they couldn't accommodate my food requirements. I asked if I could bring food from another cafe along the strip. After looking all over the only place that had vegan options is Swell. The price of the acai bowl was very expensive and it had the worst dried fruit - goji berries. Also it was not acai weather. </p>  
+    
+ 
+<h5 id="Ohope"> An Ohope muesli </h5>
+<br>
+<h3 id="Ohope"> An Ohope muesli </h3>
+<div class="image-container">
+<img class ="img-responsive" src="images/Ohope.jpg" alt="A muesli in a jar with strawberry toppings">
+</div>
+<br> 
+<br> 
+<p> This muesli is from the Moxi Cafe in Ohope. It was a basic muesli with coconut yoghurt (we already know this isn't a fav of mine) and is towards the upper end of the price range. The environment was very nice, the cafe is in an old container and they can change the roof depending on the weather. It was a light friendly environment. The actual muesli wasn't that nice and neither was the drink I ordered. A green juice in plastic :( with chunks of kale in it. </p>  
+    
+  
+<h5 id="MM"> Facon pancakes at the Mount! </h5>
+<br>
+<h3 id="MM"> Facon pancakes at the Mount! </h3>
+<div class="image-container">
+<img class ="img-responsive" src="images/Banana_Bacon.jpg" alt="Golden pancakes with banana on top with pieces of facon">
+</div>
+<br> 
+<br> 
+<p> This is the best breakfast I have had in a long time. I have really wanted to go to this cafe for a while, and I finally convinced my Mum for us to have breakfast here. We went in to the cafe and Mum was not convinced. It was down a side street an quite gloomy. Just then the waitress mentions all the tables in the courtyard are avaliable. The sun was pouring into the garden on the beautiful morning so a 10/10 for setting. The pancakes themselves were quite rich but very delicious with a generous amount of Maple Syrup (which I often find is an issue with pancakes).  </p>  
+
+</div>
+</div>
+<!-- makes everything stop and then the new section can start evenly -->
+<hr>
+<br>
+<br>
+<br>
+<br>
+<!--footer-->
+<footer align = "center">
+<h2>Posted by: Cassia Percival-Day </h2>
+<h2>Contact information: cassia@gmail.com </h2>
+</footer>
+
+</body>
+</html>
+  
